@@ -1,0 +1,48 @@
+:root{
+    --black: #000814;
+    --gray: #646c78;
+    --light-gray: #bbbec2;
+    --white-blue:#f4f9ff;
+    --dark-blue:#0054a3;
+    --main-blue: #3F7FBA;
+    --secondary-blue:#C2E1FF;
+    --light-blue:#E3F1FF;
+    --green:#46725A;
+    --light-green:#88D498;
+    --main-yellow:#FFC300;
+    --secondary-yellow:#FFE285;
+    --light-yellow:#FFF5D6;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--light-blue);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.nav-bar p{
+    font-size: 1.6rem;
+}
+.introduction{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.container-portfolios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    border-color: var(--gray);
+}
